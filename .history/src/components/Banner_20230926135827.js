@@ -56,7 +56,7 @@ const Banner = () => {
             viewport={{once: false, amount: 0.7}}
             className='mb-8 max-w-lg mx-auto lg:max-0'>
               Hi, Welcome to my Page! <br></br>
-              I am an Aspiring Developer, on the look out for new technologies.
+              I am an Aspiring Developer
             
               </motion.p>
             <motion.div 

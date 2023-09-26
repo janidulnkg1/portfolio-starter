@@ -55,9 +55,8 @@ const Banner = () => {
             whileInView={'show'}
             viewport={{once: false, amount: 0.7}}
             className='mb-8 max-w-lg mx-auto lg:max-0'>
-              Hi, Welcome to my Page! <br></br>
-              I am an Aspiring Developer, on the look out for new technologies.
-            
+              Hi I'm Janidu Lankage, a final year undergraduate following BSc (Hons) Software Engineering, awarded by Cardiff Metropolitan University, UK. <br></br>
+              I enjoy working on a wide range of projects and constantly expanding my skill set.
               </motion.p>
             <motion.div 
             variants={fadeIn('up', 0.6)} 

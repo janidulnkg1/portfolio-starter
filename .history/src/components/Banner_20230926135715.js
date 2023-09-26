@@ -55,8 +55,7 @@ const Banner = () => {
             whileInView={'show'}
             viewport={{once: false, amount: 0.7}}
             className='mb-8 max-w-lg mx-auto lg:max-0'>
-              Hi, Welcome to my Page! <br></br>
-              I am an Aspiring Developer, on the look out for new technologies.
+              Hi I'm Janidu Lankage, welcome to my Page! <br></br>
             
               </motion.p>
             <motion.div 

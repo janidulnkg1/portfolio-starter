@@ -55,45 +55,30 @@ const Banner = () => {
             whileInView={'show'}
             viewport={{once: false, amount: 0.7}}
             className='mb-8 max-w-lg mx-auto lg:max-0'>
-              Hi, Welcome to my Page! <br></br>
-              I am an Aspiring Developer, on the look out for new technologies.
-            
+              Hi I'm Janidu Lankage, a final year undergraduate following BSc (Hons) Software Engineering, awarded by Cardiff Metropolitan University, UK. <br></br>
+              I enjoy working on a wide range of projects and constantly expanding my skill set.
               </motion.p>
-            <motion.div 
-            variants={fadeIn('up', 0.6)} 
-            initial="hidden"
-            whileInView={'show'}
-            viewport={{once: false, amount: 0.7}}
-            className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:max-0'>
-              <button className='btn btn-lg'>Contact Me</button>
-              <a href='#' className='text-gradient btn-link'>
-                My portfolio
-              </a>
-            </motion.div>
-              {/* Social Media Links */}
-            <motion.div 
-            variants={fadeIn('up', 0.7)} 
-            initial="hidden"
-            whileInView={'show'}
-            viewport={{once: false, amount: 0.7}}
-            className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 items-center'>
-              <a href='https://github.com/janidulnkg1'>
-                <FaGithub></FaGithub>
-              </a>
-              <a href='https://www.linkedin.com/in/janidu-lankage-12336767/'>
-                <FaLinkedin></FaLinkedin>
-                </a>     
-            </motion.div>
+        
+          <div className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:max-0'>
+            <button className='btn btn-lg'>Contact Me</button>
+            <a href='contact' className='text-gradient btn-link'>
+              My portfolio
+            </a>
+          </div>
+
+        <div className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 items-center'>
+          <a href='https://github.com/janidulnkg1'>
+            <FaGithub></FaGithub>
+          </a>
+          <a href='https://www.linkedin.com/in/janidu-lankage-12336767/'>
+            <FaLinkedin></FaLinkedin>
+            </a>     
+        </div>
           </div>
            {/* Image */}
-           <motion.div 
-           variants={fadeIn('down', 0.5)} 
-           initial="hidden"
-           whileInView={'show'}
-           viewport={{once: false, amount: 0.7}}
-           className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px] '>
+           <div className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px] '>
           <img src={Image} alt=''  />
-          </motion.div>
+          </div>
         </div> 
       </div>  
   </section>
